@@ -32,4 +32,9 @@ fw_setenv wlandev rtl8188fu-generic
 fw_setenv osmem 39M
 fw_setenv rmem 25M@0x2700000
 #
+#
+# Set motor settings
+#
+echo "motor hmaxstep=3800 vmaxstep=1200 hst1=81 hst2=82 hst3=51 hst4=53 vst1=78 vst2=77 vst3=76 vst4=75" >> /etc/modules
+#
 exit 0
